@@ -86,4 +86,9 @@ int main(){
         printf("Enter Priority: ");
         scanf("%d",&processes[i].priority);
     }
+    fcfs(processes,n);
+    sjn(processes,n);
+    priorityScheduling(processes,n);
+
+    return 0;
 }
