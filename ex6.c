@@ -71,3 +71,19 @@ averageWaitingTime = totalWaitingTime /n;
 printf("Average Waiting time : %.2f\n",averageWaitingTime);
     
 }
+int main(){
+    int n;
+    printf("Enter the number of processes: ");
+    scanf("%d",&n);
+
+    Process processes[n];
+
+    for (int i=0;i<n;i++){
+        printf("\n Enter details for process %d:\n",i+1);
+        processes[i].processId = i+1;
+        printf("Enter burst time: ");
+        scanf("%d",&processes[i].burstTime);
+        printf("Enter Priority: ");
+        scanf("%d",&processes[i].priority);
+    }
+}
