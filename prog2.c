@@ -107,7 +107,7 @@ int main(){
     printf("Enter the burst time for each process:\n");
     for(int i=0;i<n;i++){
         printf("Process %d:",i+1);
-        scanf("%d",burst_time[i]);
+        scanf("%d",&burst_time[i]);
         processes[i]=i+1;
     }
     int quantum;
