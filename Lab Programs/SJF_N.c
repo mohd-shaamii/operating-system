@@ -29,3 +29,24 @@ int main() {
   printf("\n\n average turnaround time = %f", sumt * 1.0 / n);
   return 0;
 }
+
+/* OUTPUT:
+
+enter the no of processes : 4
+the arrival time for process P1 : 2
+the burst time for process P1 : 1
+the arrival time for process P2 : 1
+the burst time for process P2 : 5
+the arrival time for process P3 : 4
+the burst time for process P3 : 1
+the arrival time for process P4 : 0
+the burst time for process P4 : 6
+P[4]    |       6       |       0
+P[1]    |       5       |       4
+P[3]    |       4       |       3
+P[2]    |       12      |       7
+
+
+ average waiting time = 3.500000
+
+ average turnaround time = 6.750000 */
