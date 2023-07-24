@@ -73,7 +73,8 @@ void main(){
     // getch();
 }
 
-/* Enter the number of resources : 3
+/* 
+ Enter the number of resources : 3
 
  enter the max instances of each resources
 a= 10
