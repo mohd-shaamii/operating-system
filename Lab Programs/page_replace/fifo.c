@@ -40,7 +40,31 @@ int main() {
             printf("\n");
         }
     }
-
-    printf("Total Page Faults: %d\n", fault);
+printf("Total Page Faults: %d\n", fault);
     return 0;
 }
+
+    /*
+    
+OUTPUT:
+Enter the number of pages:
+7
+
+Enter the page numbers:
+1 3 0 3 5 6 3
+
+Enter the number of frames:
+3
+
+Page      Frames
+1       1       -1      -1
+3       1       3       -1
+0       1       3       0
+3       5       5       3       0
+6       5       6       0
+3       5       6       3
+Total Page Faults: 6
+    
+    */
+
+    
